@@ -1,0 +1,1 @@
+﻿Interlocked,轻量级原子操作

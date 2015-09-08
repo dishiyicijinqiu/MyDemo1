@@ -1,0 +1,1 @@
+﻿AutoResetEvent和 ManualResetEvent。
