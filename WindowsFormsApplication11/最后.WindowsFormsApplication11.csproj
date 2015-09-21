@@ -44,6 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="API\复件 Enums.cs" />
+    <Compile Include="API\复件 Structs.cs" />
+    <Compile Include="API\复件 Win32API.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
