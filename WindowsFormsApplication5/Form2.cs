@@ -21,7 +21,7 @@ namespace WindowsFormsApplication5
                 pipeServer.BeginWaitForConnection((o) =>
                 {
                     NamedPipeServerStream server = (NamedPipeServerStream)o.AsyncState;
-                    server.EndWaitForConnection(o);
+                    server.EndWaitForConnection(o); 
                     StreamReader sr = new StreamReader(server);
                     StreamWriter sw = new StreamWriter(server);
                     string result = null;
